@@ -4,9 +4,8 @@ from rest_framework import serializers
 from rest_framework.generics import get_object_or_404
 from rest_framework.relations import SlugRelatedField
 from rest_framework.validators import UniqueValidator
-
 from reviews.models import Comment, Review
-from titles.models import Categories, Title, Genres
+from titles.models import Categories, Genres, Title
 from titles.validators import validate_year
 from users.models import User
 
