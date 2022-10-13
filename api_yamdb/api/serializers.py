@@ -6,7 +6,7 @@ from rest_framework.relations import SlugRelatedField
 from rest_framework.validators import UniqueValidator
 
 from reviews.models import Comment, Review
-from titles.models import Title, Categories, Genres
+from titles.models import Categories, Title, Genres
 from titles.validators import validate_year
 from users.models import User
 
