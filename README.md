@@ -124,14 +124,14 @@ docker-compose exec web python manage.py loaddata fixtures.json
 _____
 
 <details>
-  <summary markdown="span">Api-документация</summary>
+  <summary markdown="span">Развернутый проект</summary>
  
  ------
 
-```
-http://localhost/redoc/
- 
-```
+### [Проект](http://51.250.77.133/)
+
+### [API-документация](http://51.250.77.133/redoc/)
+
 
   
 </details>
